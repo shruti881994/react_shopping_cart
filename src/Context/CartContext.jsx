@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useMemo } from "react";
 import { initialProducts } from '../Data/Product';
- import { ToastContainer, toast, Bounce} from 'react-toastify';
+ import {toast, Bounce} from 'react-toastify';
 const CartContext = createContext();
 
 
