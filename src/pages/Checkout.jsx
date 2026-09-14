@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useCart } from "../Context/CartContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBox, faMap, faMapLocation, faShoppingBag } from "@fortawesome/free-solid-svg-icons";
+import { faMap, faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router";
 import OrderConfirm from "./OrderConfirm";
 import { faIndianRupeeSign } from "@fortawesome/free-solid-svg-icons";

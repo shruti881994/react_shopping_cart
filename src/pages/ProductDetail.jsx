@@ -2,8 +2,7 @@ import { Link, useParams } from "react-router";
 import { initialProducts } from "../Data/Product";
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronCircleLeft, faGreaterThan, faIndianRupeeSign, faTag, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons/faChevronCircleLeft";
+import { faChevronCircleLeft, faIndianRupeeSign, faTag, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { useCart } from "../Context/CartContext";
 const ProductDetail = ()=>{
     const {addCart} = useCart();

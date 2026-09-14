@@ -1,7 +1,7 @@
 import { useCart } from "../Context/CartContext";
 import { Link } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronCircleLeft, faGreaterThan, faIndianRupeeSign, faTag, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faChevronCircleLeft, faIndianRupeeSign } from "@fortawesome/free-solid-svg-icons";
 import Cartitem from '../components/Cartitem';
 const Cart = ()=>{
     const{cart, cartTotal, cartCount} = useCart();

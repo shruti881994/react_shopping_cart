@@ -1,4 +1,4 @@
-import { faIndianRupee, faRupee, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faIndianRupee, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 import { useCart } from "../Context/CartContext";

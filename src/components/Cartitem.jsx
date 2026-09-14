@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useCart } from "../Context/CartContext";
-import { faCross, faIndianRupee, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faIndianRupee, faXmark } from "@fortawesome/free-solid-svg-icons";
 const Cartitem = ({item})=>{
     const {addCart, removeItem} = useCart();
     const increaseQ = ()=> addCart(item);
