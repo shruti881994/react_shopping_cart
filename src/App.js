@@ -8,7 +8,7 @@ import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import OrderConfirm from './pages/OrderConfirm';
 import { CartProvider } from './Context/CartContext';
- import { ToastContainer, toast, Bounce } from 'react-toastify';
+ import { ToastContainer, Bounce } from 'react-toastify';
 function App() {
   return (
     <>
